@@ -1,1 +1,69 @@
-"Hello world, we are software developers!"
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+</head>
+<body>
+    <div id="headingarea">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+</div>
+<div id="surveyArea">
+<form id="survey-form">
+    <div id="input-fields">
+  <label id="name-label">Name</label><br>
+  <input type="text" id="name" placeholder="Enter your name" required></input><br>
+  <label id="email-label">Email</label><br>
+  <input type="email" id="email" placeholder="Enter your email" required></input><br>
+  <label id="number-label">Age (optional)</label><br>
+  <input type="number" id="number" placeholder="Age" min="18" max="70"></input>
+</div>
+ 
+<div id="dropdownArea">
+    <label>Which option best describes your current role?</label><br>
+  <select id="dropdown">
+    
+    <option>Student</option>
+    <option>Full time job</option>
+    <option>Full time learner</option>
+    <option>Prefer not to say</option>
+    <option>Other</option>
+  </select>
+  </div>
+  <div id="radioButton">
+    <label>Would you recommend freeCodeCamp to a friend?</label><br>
+  <input type="radio" name="radioGroup" value="radio1" class="radio">radio1</input>
+  <input type="radio" name="radioGroup" value="radio2" class="radio">radio2</input>
+  <input type="radio" name="radioGroup" value="radio2" class="radio">radio2</input>
+  </div>
+
+  <div id="dropdownArea2">
+    <label>What is your favorite feature of freeCodeCamp?</label><br>
+    <select id="dropdown2">
+      
+      <option>Challenges</option>
+      <option>Project</option>
+      <option>Community</option>
+      <option>Open source</option>
+    </select>
+    </div>
+
+
+<div id="checkBoxarea">
+    <label>What would you like to see improved? (Check all that apply)</label><br>
+  <input type="checkbox" value="checkbox1">Front-end Projects</input>
+  <input type="checkbox" value="checkbox2">Back-end Projects</input>
+  <input type="checkbox" value="checkbox3">Data Visualization</input>
+  <input type="checkbox" value="checkbox4">Challenges</input>
+</div>
+<div id="endArea">
+<label>Any comments or suggestions</label><br>
+  <textarea placeholder="Enter your comment here"></textarea><br>
+  <input type="submit" id="submit"></input>
+</form>
+</div>
+</div>
+</body>
+</html>
